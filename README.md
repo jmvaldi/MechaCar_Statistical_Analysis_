@@ -2,6 +2,7 @@
 The purpose of this repository is to provide help to the manufacturing team by offering insight on the production of the MechaCar by using R.
 
 ## Linear Regression to Predict MPG
+
 <img width="664" alt="p-value and r-squared value" src="https://user-images.githubusercontent.com/88690258/143807711-5005822d-cd28-4c60-b092-641cd5e6cffa.png">
 
 For this deliverable the first thing that was done was to load the miles per gallon (mpg) dataset onto R. Afterwards a multiple linear regression was performed to predict the mpg as the dependent variable by using six dependent variables (vehicle length, vehicle weight, spoiler angle, ground clearance, AWD) as the independent).
@@ -15,4 +16,20 @@ With this we can tell that the vehicle length and their ground clearence provide
 To begin, the suspension coil dataset was loaded onto R. the dataset contained 150 different vehcile ID's, manufactoring lots, and PSI levels for each vehicle. Two sumary tables were then created, one for the total population and another for the three different lots provided for the MechaCars to be divided into.
 
 ## T-Tests on Suspension Coils
+
+The purpose of the thrid deliverable was to determine if all manufactoring lots and each lot individually are diiferent from the population mean of 1500 lbs per square inch. A t-test for all three lots were performed in addition to t-tests for each lot respectivily. 
+
+###The combined lots t-test:
+
+<img width="665" alt="t test to determine PSI" src="https://user-images.githubusercontent.com/88690258/143810061-f9ba3e05-b06b-4fdc-abf2-64c624466a3c.png">
+
+Looking at the p-value (0.06) we can see that it is greater than 0.05 thus we fail to reject the null-hypothesis. we can then not reject that there is astatistical difference in the sample mean to the true population mean.
+
+<img width="475" alt="Lot 1 t-test" src="https://user-images.githubusercontent.com/88690258/143810294-83cea24d-fda7-4b1a-8511-2f45d78cb9b7.png">
+<img width="475" alt="Lot 2 t-test" src="https://user-images.githubusercontent.com/88690258/143810296-adf5aee0-f4e3-41f3-a13d-6c75213042bd.png">
+<img width="475" alt="Lot 3 t-test" src="https://user-images.githubusercontent.com/88690258/143810306-266bbe48-f378-4b67-83ef-6b4c0940d4c9.png">
+
+Looking at the p-value of the first and second lot t--tests, they are greater than the significant value of 0.05 thus we fail to reject the null-hypothesis. Lastly the thrid lot has a p-value less than 0.05 thus we can reject the null-hypothesis.
+
+## Study By Design: MechaCar vs Competition
 
