@@ -33,3 +33,4 @@ Looking at the p-value of the first and second lot t--tests, they are greater th
 
 ## Study By Design: MechaCar vs Competition
 
+Looking ahead, how can the MechaCar perform better than the competion... linear regression on city and highway fuel efficiency since th guage of fuel prices is the concious of every driver. The null-hypothesis would be that all cars in the same class willl have the same fuel efficiency while the alternative-hypothesis states that they do not. To test this a ggplot2 boxplot can help show fuel efficiency spread of different cars, along side that the fuel efficiency data of the cars would have to be collected and compiled onto a csv file. Enough car highway and city fuel efficiency data must be coolected to have a good sample size from a total population size. 
